@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>63541dc9-cbad-4e7a-a85d-5b6495fcf4c1.SCHEMA:df30714bd.dbo</OriginalElement>
+  <nodes>
+    <node x="0.0" y="257.0">63541dc9-cbad-4e7a-a85d-5b6495fcf4c1.TABLE:df30714bd.dbo.Employees</node>
+    <node x="243.5" y="0.0">63541dc9-cbad-4e7a-a85d-5b6495fcf4c1.TABLE:df30714bd.dbo.Authors</node>
+    <node x="486.5" y="0.0">63541dc9-cbad-4e7a-a85d-5b6495fcf4c1.TABLE:df30714bd.dbo.Orders</node>
+    <node x="225.5" y="269.5">63541dc9-cbad-4e7a-a85d-5b6495fcf4c1.TABLE:df30714bd.dbo.Artworks</node>
+    <node x="57.5" y="62.5">63541dc9-cbad-4e7a-a85d-5b6495fcf4c1.TABLE:df30714bd.dbo.Departments</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="63541dc9-cbad-4e7a-a85d-5b6495fcf4c1.TABLE:df30714bd.dbo.Employees" target="63541dc9-cbad-4e7a-a85d-5b6495fcf4c1.TABLE:df30714bd.dbo.Departments">
+      <point x="0.0" y="-128.5" />
+      <point x="-41.5" y="41.0" />
+    </edge>
+    <edge source="63541dc9-cbad-4e7a-a85d-5b6495fcf4c1.TABLE:df30714bd.dbo.Artworks" target="63541dc9-cbad-4e7a-a85d-5b6495fcf4c1.TABLE:df30714bd.dbo.Departments">
+      <point x="-39.0" y="-116.0" />
+      <point x="264.5" y="232.0" />
+      <point x="182.0" y="232.0" />
+      <point x="41.5" y="41.0" />
+    </edge>
+    <edge source="63541dc9-cbad-4e7a-a85d-5b6495fcf4c1.TABLE:df30714bd.dbo.Artworks" target="63541dc9-cbad-4e7a-a85d-5b6495fcf4c1.TABLE:df30714bd.dbo.Authors">
+      <point x="39.0" y="-116.0" />
+      <point x="0.0" y="103.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7808988764044944" x="321.0" y="257.0" />
+  <SelectedNodes>
+    <node>63541dc9-cbad-4e7a-a85d-5b6495fcf4c1.TABLE:df30714bd.dbo.Departments</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Key columns</Category>
+    <Category>Columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="@df30714bd" uuid="63541dc9-cbad-4e7a-a85d-5b6495fcf4c1">
+      <database-info product="Microsoft SQL Server" version="12.00.6118" jdbc-version="4.2" driver-name="Microsoft JDBC Driver 8.2 for SQL Server" driver-version="8.2.2.0" dbms="MSSQL" exact-version="12.0.6118" exact-driver-version="8.2">
+        <extra-name-characters>$#@</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>renforcaient_SQLLogin_1</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="database" qname="@">
+            <node kind="schema" qname="@" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+  </component>
+</project>
